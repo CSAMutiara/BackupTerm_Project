@@ -1,0 +1,12 @@
+MODEL: Data
+- library (links)
+- user
+
+VIEWS: what we send to the user
+- template files (EJS)
+    - library.ejs
+    - user.ejs
+    
+CONTROLLER: controls sections (data manipulation)
+- libraryController
+- userController
